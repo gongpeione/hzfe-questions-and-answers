@@ -88,7 +88,7 @@ const emailReg = /\w+@\w+\.\w+/;
 ## 优化(?)版
 
 ```javascript
-const emailReg = /[a-zA-Z0-9!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]{2}/;
+const emailReg = /[a-zA-Z0-9!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]{2,}/;
 ```
 
 ## HTML5 之撒手不管版
